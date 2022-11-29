@@ -1,0 +1,110 @@
+header{
+  height: 100px;
+  background-image: url(bg\ vector.png);
+  background-repeat: no-repeat;
+  box-shadow: 0px 4px 37px rgba(0, 0, 0, 0.2);
+
+}
+.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 6% 10px 50px;
+}
+.navbar-item{
+  margin: 5px 20px;
+  transition: all 1s ease;
+}
+.logo{
+  width: 100px;
+  height: auto;
+  margin: 2px;
+}
+.navbar-item b:hover{
+  color:green;
+  border-bottom:2px solid green;
+  transition: all 0.5s ease-out; 
+}
+.first{
+  width: 100%;
+  background-image: url(bg.png);
+  background-size: cover
+}
+#center{
+  margin: 5% 0 0 10%;
+}
+.second{
+  background-color: #86B47240;
+}
+.active{
+  width: 110px;
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 0.5s ease;
+  opacity: 1;
+}
+.box{
+  transition: all 0.5s ease;
+}
+#box:hover{
+  margin-top: -10px;
+  transition: all 0.5s ease;  
+}
+.third{
+  background-image: url(thirdbg.png);
+  background-size: cover;
+  background-position: center;
+}
+.fourth{
+  width:100%;
+  background-size: cover;
+  background-position: center;
+}
+#ahref{
+  font-size: 30px;
+}
+footer{
+  height: 25vh
+}
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1280px){
+
+}
+
+
+@media(max-width:1024px){
+  .nav{
+    display: block;
+    padding: 0;
+    position: relative;
+    z-index: 99
+  }
+  .navbar-burger{
+    width: 100px;
+    margin-top: 20px;
+    margin-right: 10px;
+  }
+  #smal{
+    font-size: 30px;
+  }
+  #ahref{
+    font-size: 15px;
+    margin: 20px;
+  }
+}
+
+@media(max-width:768px){
+
+}
